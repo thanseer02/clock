@@ -1,0 +1,108 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+button#t
+{
+    margin-top:auto ;
+    margin-left: auto;
+    font-family: "Raleway", Arial, sans-serif;
+    border-radius: 10px;
+    padding: 10px 26px;
+    border: 3px dotted rgb(62, 59, 59);
+    position: absolute;
+    top: 50%;
+    background-color: rgba(54, 52, 52, 0.3);
+    left: 50%;
+    color: aliceblue;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+button#t:active
+{
+    font-size: 19px;
+    background-color: rgb(52, 46, 46);
+    color: rgb(252, 252, 252);
+}
+
+
+img
+{
+    width: 100%;
+    transform: rotate(180deg);
+    filter: blur(8px);
+}
+p#time
+{
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 4px; 
+    margin-left: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+
+}
+p#day
+{
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 39px; 
+    margin-left: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+}
+#bo
+{
+    margin-top:auto ;
+    margin-left: auto;
+    font-family: "Raleway", Arial, sans-serif;
+    border-radius: 10px;
+    padding: 8px 20px; 
+    font-size: 13px;
+    background-color: azure;
+    position: absolute;
+    top: 8px;
+  left: 16px;
+}
+#bo:active
+{
+    background-color: aliceblue;
+    font-size: 12px;
+    padding: 8px 20px; 
+
+
+}
+#bo:visited
+{
+    background-color: black;
+}
+
+#bf
+{
+    margin-top:auto ;
+    margin-left: auto;
+    font-family: "Raleway", Arial, sans-serif;
+    border-radius: 10px;
+    padding: 8px 20px; 
+    font-size: 13px;
+    background-color:black;
+    color: aliceblue;
+    position: absolute;
+  top: 8px;
+  right: 16px;
+}
+#bf:active
+{
+    background-color:darkgray;
+    font-size: 12px;
+    padding: 8px 20px; 
+    color: black;
+}
